@@ -12,7 +12,7 @@ function sum(num) {
                 return num;
         }
 
-        func.toString = () => num;
+        func.toString = () => num; // "==" is calling "valueOf", and "valueOf" is calling "toString"
         return func;
 }
 
