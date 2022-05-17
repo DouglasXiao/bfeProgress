@@ -1,0 +1,28 @@
+
+/* https://bigfrontend.dev/css/css-cross-button
+ */
+ 
+.close {
+        border: 1px solid #aaa;
+        border-radius: 50%;
+        position: relative;
+}
+
+.close::before,
+.close::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: #aaa;
+        width: calc(100% * 3 / 4);
+        height: 2px;
+}
+
+.close::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+}
