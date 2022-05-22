@@ -1,0 +1,8 @@
+/* https://bigfrontend.dev/css/hairline */
+
+.hairline {
+        width: 150px;
+        border-top: 1px solid black;
+        transform: scaleY(0.5);
+        transform-origin: 0 0;
+      }
